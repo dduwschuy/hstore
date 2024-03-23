@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+margin: 0px;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.banner{
+	background: #EAEAE8;
+	border-bottom: 1.5px solid #8B0000;
+}
+.narbar{
+	display: flex;
+	justify-content: space-between;
+	background: #EAEAE8;
+	align-items: center;
+	padding: 5px 0;
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+.menu ul{
+	display: flex;
+
+}
+.menu ul li{
+	padding: 0 20px;
+	
+}
+.menu ul li a{
+	color: dimgray;
+	font-size: 16px;
+	
+}
+.menu a:hover{
+	color: #B41D4F;
+}
+.main{
+	display: flex;
+}
+.promotion{
+	padding-top: 50px;
+}
+	
+
+.danhmuc ul{
+	padding: 0;
+	padding-left: 10px;
+}
+.danhmuc h2{
+	color: #8B0000;
+	padding: 30px 0;
+}
+.danhmuc1 a{
+	color: dimgray;
+	
+
+}
+aside ul li a{
+	padding: 10px; padding: block;
+}
+aside ul li{
+	border-bottom: 1px solid #EAEAE8
+}
+aside ul li a:hover{
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	background-color: #8B0000; color: white;
+}
+.danhmuc1 li{
+	padding: 10px 0;
+	border-bottom: 1px solid #EAEAE8;
+}
+.trending h2{
+	padding: 25px 0 25px 0;
+}
+
+.sanpham img{
+	padding-top: 20px;
+}
+.productname{
+	font-size: 20px;
+	font-weight: bold;
+	color: dimgray;
+	text-align: center;
+}
+.mota{
+	text-align: center;
+	color: gray;
+	padding: 15px 0;
+	font-size: 16px;
+}
+.gia{
+	text-align: center;
+	font-weight: bold;
+	color: dimgray;
+}
+.gia2{
+	text-align:left;
+	font-weight: 400;
+	color: dimgray;
+	text-decoration: line-through;
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+.img-100{
+	width: 100%; height: auto;
+}
+.displayflex{
+	display: flex;
+	justify-content: space-around;
+}
+.gia3{
+	font-weight: bold;
+	color: #8B0000;
+	
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+.footertong{
+	background:#D1D1D1;
+}
+.textxam{
+	color: dimgrey;
+}
+.textthuong {
+	color: dimgray;
+	font-size: 14px;
+	
+}
+.textnho{
+	color: dimgray;
+	font-size: 14px;
+	font-style: italic;
+	
+}
+.aligncenter{
+	text-align: center;
+}
+.paddingtop20{
+ padding-top: 20px;
+}
+.footer2{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	background-color:#87CEFA;
+}
+.footer2 a{
+	color: grey;
+}
